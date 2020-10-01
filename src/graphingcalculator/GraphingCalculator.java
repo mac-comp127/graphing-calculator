@@ -37,7 +37,7 @@ public class GraphingCalculator {
 
         canvas.animate(dt ->
             setAnimationParameter(
-                getAnimationParameter() + dt / 2));
+                getAnimationParameter() + dt * 0.5));
     }
 
     /**
