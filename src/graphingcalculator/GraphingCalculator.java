@@ -35,9 +35,9 @@ public class GraphingCalculator {
 
         coordinatesChanged();
 
-        canvas.animate(dt ->
+        canvas.animate(() ->
             setAnimationParameter(
-                getAnimationParameter() + dt * 0.5));
+                getAnimationParameter() + 0.01));
     }
 
     /**
